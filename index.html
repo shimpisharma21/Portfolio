@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shimpi Sharma | Data Analytics & AI Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Shimpi Sharma - Data Analytics & AI Professional, Project Engineer at Wipro. Expert in Python, Machine Learning, SQL, and GenAI.">
+  <meta name="keywords" content="Shimpi Sharma, Portfolio, Data Analytics, AI Engineer, Machine Learning, Python, Wipro, GenAI, LLMs, SQL">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Shimpi Sharma | Data Analytics & AI Engineer">
+  <meta property="og:description" content="Explore projects, skills, certifications, and experience of Shimpi Sharma.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+
+  <!-- Ambient Ambient Radial Glow Backgrounds -->
+  <div class="ambient-glow glow-top-left"></div>
+  <div class="ambient-glow glow-bottom-right"></div>
+  <div class="ambient-glow glow-center"></div>
+
+  <!-- 3D Three.js WebGL Canvas Background -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-badge"><i class="fa-solid fa-brain"></i></span>
+        <span>Shimpi<span class="brand-dot">.ai</span></span>
+      </a>
+
+      <!-- Navigation Links -->
+      <div class="nav-menu" id="nav-menu">
+        <a href="#about" class="nav-link"><i class="fa-regular fa-user"></i> About</a>
+        <a href="#skills" class="nav-link"><i class="fa-solid fa-layer-group"></i> Skills</a>
+        <a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase"></i> Experience</a>
+        <a href="#projects" class="nav-link"><i class="fa-solid fa-cubes"></i> Projects</a>
+        <a href="#certs" class="nav-link"><i class="fa-solid fa-award"></i> Certifications</a>
+        <a href="#contact" class="nav-link"><i class="fa-regular fa-paper-plane"></i> Contact</a>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary">
+          <i class="fa-solid fa-bolt"></i> Hire Me
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Hero Text Content -->
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="pulse-indicator"></span>
+              <span>Project Engineer @ Wipro (Philips Account)</span>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text-gold">Shimpi Sharma</span><br>
+              Transforming Data into <span class="gradient-text">Intelligent Systems</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Data Analytics & AI professional specialized in <strong>Python, Machine Learning, SQL, and Generative AI</strong>. Currently building client-facing AI and analytics solutions at Wipro.
+            </p>
+
+            <!-- Typewriter Specialty Rotator -->
+            <div class="typewriter-box">
+              <span class="type-label">&gt; Core Focus:</span>
+              <span class="typewriter-text" id="typewriter"></span>
+              <span class="cursor">|</span>
+            </div>
+
+            <!-- Hero Buttons -->
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fa-solid fa-rocket"></i> Explore 3D Projects
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <i class="fa-regular fa-envelope"></i> Get in Touch
+              </a>
+              <button class="btn btn-outline" id="copy-email-btn">
+                <i class="fa-regular fa-copy"></i> Copy Email
+              </button>
+            </div>
+
+            <!-- Hero Quick Contacts -->
+            <div class="hero-contacts">
+              <a href="mailto:shimpisharma2001@gmail.com" class="contact-item">
+                <div class="contact-icon-box"><i class="fa-solid fa-envelope"></i></div>
+                <span>shimpisharma2001@gmail.com</span>
+              </a>
+              <a href="https://linkedin.com/in/shimpi-sharma" target="_blank" rel="noopener" class="contact-item">
+                <div class="contact-icon-box"><i class="fa-brands fa-linkedin-in"></i></div>
+                <span>LinkedIn</span>
+              </a>
+              <div class="contact-item">
+                <div class="contact-icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                <span>Gurgaon, Haryana</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero 3D Card / Terminal Display -->
+          <div class="hero-3d-wrapper">
+            <div class="cred-card cred-3d-card gold-glow">
+              <div class="card-header-bar">
+                <div class="window-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <span class="badge-tag"><i class="fa-solid fa-shield-halved"></i> AI Profile Verified</span>
+              </div>
+
+              <div class="code-preview">
+                <pre><code><span class="code-keyword">class</span> <span class="code-var">DataEngineerProfile</span>:
+    <span class="code-keyword">def</span> <span class="code-var">__init__</span>(self):
+        self.name = <span class="code-string">"Shimpi Sharma"</span>
+        self.role = <span class="code-string">"Project Engineer (Data & AI)"</span>
+        self.company = <span class="code-string">"Wipro Technologies"</span>
+        self.client_account = <span class="code-string">"Philips Engagement"</span>
+        self.skills = [
+            <span class="code-string">"Python"</span>, <span class="code-string">"SQL"</span>, <span class="code-string">"Machine Learning"</span>,
+            <span class="code-string">"GenAI & LLMs"</span>, <span class="code-string">"Databricks"</span>
+        ]
+        self.location = <span class="code-string">"Gurgaon, India"</span>
+
+    <span class="code-keyword">def</span> <span class="code-var">get_status</span>(self):
+        <span class="code-keyword">return</span> <span class="code-string">"Ready to engineer high-impact AI solutions 🚀"</span></code></pre>
+              </div>
+
+              <!-- Hero Card Stats Row -->
+              <div class="hero-stats-row">
+                <div class="stat-box">
+                  <div class="stat-num">100+</div>
+                  <div class="stat-lbl">DSA Solved</div>
+                </div>
+                <div class="stat-box">
+                  <div class="stat-num">Top 10%</div>
+                  <div class="stat-lbl">KPIT Rank</div>
+                </div>
+                <div class="stat-box">
+                  <div class="stat-num">3+</div>
+                  <div class="stat-lbl">AI Models</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-subtitle"><i class="fa-regular fa-id-card"></i> Know My Background</span>
+          <h2 class="section-title">About <span class="gradient-text-gold">Shimpi Sharma</span></h2>
+          <p class="section-description">Combining analytical precision, Machine Learning modeling, and cloud data workflows to solve real-world problems.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Story Card -->
+          <div class="cred-card story-card tilt-card">
+            <h3 style="font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: 16px; color: var(--text-primary);">
+              Analytical Mind & AI Specialist
+            </h3>
+            <p>
+              I am a <strong>Data Analytics & AI Professional</strong> currently working as a Project Engineer at <strong>Wipro Technologies</strong>, assigned to the <strong>Philips client engagement account</strong>.
+            </p>
+            <p>
+              My expertise bridges core software engineering in C++ and Python with advanced Machine Learning modeling, Generative AI (LLMs & Hugging Face), and data pipelines. I hold a B.E. in Computer Science & Engineering from Chandigarh University.
+            </p>
+            <div class="story-highlights">
+              <div class="highlight-pill"><i class="fa-solid fa-microchip"></i> Machine Learning</div>
+              <div class="highlight-pill"><i class="fa-solid fa-sparkles"></i> GenAI & LLMs</div>
+              <div class="highlight-pill"><i class="fa-solid fa-database"></i> SQL & ETL Pipelines</div>
+              <div class="highlight-pill"><i class="fa-solid fa-cloud"></i> AWS & Databricks</div>
+            </div>
+          </div>
+
+          <!-- Feature Cards Stack -->
+          <div class="about-features-grid">
+            <div class="cred-card feature-mini-card tilt-card">
+              <div class="icon-box-3d gold"><i class="fa-solid fa-robot"></i></div>
+              <div>
+                <h4>Machine Learning & Analytics</h4>
+                <p>Building predictive algorithms, data cleaning pipelines, and feature selection models using Pandas, NumPy, and Scikit-learn.</p>
+              </div>
+            </div>
+
+            <div class="cred-card feature-mini-card tilt-card">
+              <div class="icon-box-3d violet"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <div>
+                <h4>Generative AI & LLMs</h4>
+                <p>Hands-on exposure to Hugging Face transformers, fine-tuning concepts, NLP emotion visualization, and prompt engineering.</p>
+              </div>
+            </div>
+
+            <div class="cred-card feature-mini-card tilt-card">
+              <div class="icon-box-3d emerald"><i class="fa-solid fa-network-wired"></i></div>
+              <div>
+                <h4>Data Engineering & Cloud</h4>
+                <p>Foundational understanding of Snowflake, Databricks ETL workflows, MySQL databases, and AWS Cloud infrastructure.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS MATRIX SECTION -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-subtitle gold"><i class="fa-solid fa-code"></i> Technical Toolkit</span>
+          <h2 class="section-title">Core Skills & <span class="gradient-text">Technologies</span></h2>
+          <p class="section-description">Proven skills across data science, artificial intelligence, database engines, and developer tools.</p>
+        </div>
+
+        <div class="skills-categories">
+          <!-- Programming Languages -->
+          <div class="cred-card skill-category-card tilt-card">
+            <div class="category-header">
+              <div class="icon-box-3d gold"><i class="fa-solid fa-code"></i></div>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skills-tags-wrap">
+              <div class="skill-badge-3d gold"><i class="fa-brands fa-python"></i> Python</div>
+              <div class="skill-badge-3d gold"><i class="fa-solid fa-database"></i> SQL</div>
+              <div class="skill-badge-3d gold"><i class="fa-solid fa-file-code"></i> C++</div>
+            </div>
+          </div>
+
+          <!-- Data & AI -->
+          <div class="cred-card skill-category-card tilt-card">
+            <div class="category-header">
+              <div class="icon-box-3d"><i class="fa-solid fa-brain"></i></div>
+              <h3>Data & Machine Learning</h3>
+            </div>
+            <div class="skills-tags-wrap">
+              <div class="skill-badge-3d"><i class="fa-solid fa-chart-pie"></i> Pandas</div>
+              <div class="skill-badge-3d"><i class="fa-solid fa-square-root-variable"></i> NumPy</div>
+              <div class="skill-badge-3d"><i class="fa-solid fa-gears"></i> Scikit-learn</div>
+              <div class="skill-badge-3d"><i class="fa-solid fa-diagram-project"></i> Machine Learning</div>
+              <div class="skill-badge-3d"><i class="fa-solid fa-filter"></i> Data Preprocessing</div>
+            </div>
+          </div>
+
+          <!-- GenAI & Data Engineering -->
+          <div class="cred-card skill-category-card tilt-card">
+            <div class="category-header">
+              <div class="icon-box-3d violet"><i class="fa-solid fa-sparkles"></i></div>
+              <h3>GenAI & Data Engineering</h3>
+            </div>
+            <div class="skills-tags-wrap">
+              <div class="skill-badge-3d"><i class="fa-solid fa-comments"></i> LLMs</div>
+              <div class="skill-badge-3d"><i class="fa-solid fa-face-smile"></i> Hugging Face</div>
+              <div class="skill-badge-3d"><i class="fa-solid fa-snowflake"></i> Snowflake Concepts</div>
+              <div class="skill-badge-3d"><i class="fa-solid fa-cube"></i> Databricks</div>
+              <div class="skill-badge-3d"><i class="fa-solid fa-pipe-valve"></i> ETL Pipelines</div>
+            </div>
+          </div>
+
+          <!-- Databases & Developer Tools -->
+          <div class="cred-card skill-category-card tilt-card">
+            <div class="category-header">
+              <div class="icon-box-3d emerald"><i class="fa-solid fa-terminal"></i></div>
+              <h3>Databases & Tools</h3>
+            </div>
+            <div class="skills-tags-wrap">
+              <div class="skill-badge-3d"><i class="fa-solid fa-server"></i> MySQL</div>
+              <div class="skill-badge-3d"><i class="fa-solid fa-database"></i> SQLite</div>
+              <div class="skill-badge-3d"><i class="fa-brands fa-git-alt"></i> Git</div>
+              <div class="skill-badge-3d"><i class="fa-brands fa-github"></i> GitHub</div>
+              <div class="skill-badge-3d"><i class="fa-solid fa-laptop-code"></i> VS Code</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-subtitle violet"><i class="fa-solid fa-briefcase"></i> Work History</span>
+          <h2 class="section-title">Professional <span class="gradient-text-violet">Experience</span></h2>
+          <p class="section-description">Client engagement delivery and technical training achievements.</p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Wipro Experience -->
+          <div class="timeline-item gold">
+            <div class="timeline-node"><i class="fa-solid fa-building"></i></div>
+            <div class="cred-card timeline-card tilt-card gold-glow">
+              <div class="timeline-meta">
+                <h3 class="role-title">Project Engineer — Data Analytics & AI</h3>
+                <span class="date-badge gold">Mar 2026 – Present</span>
+              </div>
+              <div class="company-name"><i class="fa-solid fa-briefcase"></i> Wipro Technologies | Bangalore / Gurgaon, India</div>
+              <ul class="timeline-points">
+                <li>Onboarded as a billable resource within Wipro's Data Analytics & AI practice, currently allocated to the <strong>Philips client account engagement</strong>.</li>
+                <li>Undergoing structured induction and technical ramp-up aligned with client project requirements and enterprise delivery standards.</li>
+                <li>Applying core expertise in Python, SQL, and Machine Learning within a live client engagement environment.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- KPIT NovaTraining Experience -->
+          <div class="timeline-item">
+            <div class="timeline-node"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="cred-card timeline-card tilt-card">
+              <div class="timeline-meta">
+                <h3 class="role-title">NovaTraining (C/C++ Track)</h3>
+                <span class="date-badge">Jan 2025 – May 2025</span>
+              </div>
+              <div class="company-name"><i class="fa-solid fa-award"></i> KPIT Technologies, India</div>
+              <ul class="timeline-points">
+                <li>Solved <strong>100+ complex coding problems</strong> using C/C++, significantly elevating algorithmic problem-solving efficiency.</li>
+                <li>Achieved <strong>Top 10% rank</strong> in internal coding assessments across national cohorts.</li>
+                <li>Applied Object-Oriented Programming (OOP) concepts through practical implementation of data structure frameworks.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-subtitle"><i class="fa-solid fa-cubes"></i> Portfolio Showcase</span>
+          <h2 class="section-title">Featured <span class="gradient-text">3D Projects</span></h2>
+          <p class="section-description">AI, Machine Learning, NLP, and Full Stack applications built with end-to-end precision.</p>
+        </div>
+
+        <!-- Project Filter Buttons -->
+        <div class="projects-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ai">GenAI & NLP</button>
+          <button class="filter-btn" data-filter="ml">Machine Learning</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          <!-- Project 1: Emotion2Color -->
+          <div class="project-card-wrapper" data-category="ai">
+            <div class="cred-card project-card-3d tilt-card gold-glow">
+              <div class="project-card-top">
+                <span class="project-category-tag">Full-Stack AI & NLP</span>
+                <h3 class="project-title">Emotion2Color — AI Emotion Visualization</h3>
+                <p class="project-desc">Full-stack AI application converting text input into dynamic emotion-based color outputs using NLP inference.</p>
+                <ul class="project-bullets">
+                  <li>Applied NLP techniques for emotion detection and real-time inference.</li>
+                  <li>Processed text data to derive emotion-driven visual color schemes.</li>
+                  <li>Engineered REST APIs in Flask integrated with React frontend and MongoDB.</li>
+                </ul>
+              </div>
+              <div>
+                <div class="project-tech-stack">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Flask</span>
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">NLP</span>
+                  <span class="tech-tag">MongoDB</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-btn"><i class="fa-brands fa-github"></i> Source Code</a>
+                  <a href="#" class="project-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Item Recommendation System -->
+          <div class="project-card-wrapper" data-category="ml">
+            <div class="cred-card project-card-3d tilt-card">
+              <div class="project-card-top">
+                <span class="project-category-tag">Recommendation Engine</span>
+                <h3 class="project-title">Item Recommendation System</h3>
+                <p class="project-desc">Personalized recommendation engine built using User & Item K-Nearest Neighbors (KNN) similarity modeling.</p>
+                <ul class="project-bullets">
+                  <li>Implemented automated data preprocessing and feature engineering pipeline.</li>
+                  <li>Designed scalable similarity algorithms for personalized recommendations.</li>
+                  <li>Deployed recommendation API endpoints using Python Flask framework.</li>
+                </ul>
+              </div>
+              <div>
+                <div class="project-tech-stack">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Pandas</span>
+                  <span class="tech-tag">Scikit-learn</span>
+                  <span class="tech-tag">KNN</span>
+                  <span class="tech-tag">Flask</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-btn"><i class="fa-brands fa-github"></i> Source Code</a>
+                  <a href="#" class="project-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: OncoPredict -->
+          <div class="project-card-wrapper" data-category="ml">
+            <div class="cred-card project-card-3d tilt-card">
+              <div class="project-card-top">
+                <span class="project-category-tag">Healthcare Predictive ML</span>
+                <h3 class="project-title">OncoPredict — Breast Cancer Prediction</h3>
+                <p class="project-desc">Machine Learning classification model built for predictive healthcare analytics and diagnostic assistance.</p>
+                <ul class="project-bullets">
+                  <li>Performed comprehensive data cleaning, normalization, and feature selection.</li>
+                  <li>Evaluated ML classification algorithms (Logistic Regression, SVM, Random Forest).</li>
+                  <li>Boosted prediction performance through statistical analysis and hyperparameter tuning.</li>
+                </ul>
+              </div>
+              <div>
+                <div class="project-tech-stack">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">NumPy</span>
+                  <span class="tech-tag">Pandas</span>
+                  <span class="tech-tag">Scikit-learn</span>
+                  <span class="tech-tag">ML Classification</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-btn"><i class="fa-brands fa-github"></i> Source Code</a>
+                  <a href="#" class="project-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & EDUCATION SECTION -->
+    <section id="certs" class="section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-subtitle gold"><i class="fa-solid fa-graduation-cap"></i> Qualifications</span>
+          <h2 class="section-title">Certifications & <span class="gradient-text-gold">Education</span></h2>
+          <p class="section-description">Industry-recognized credentials and academic accomplishments.</p>
+        </div>
+
+        <div class="cert-edu-grid">
+          <!-- Certifications Grid -->
+          <div>
+            <h3 style="font-family: var(--font-heading); font-size: 1.4rem; margin-bottom: 20px; color: var(--gold-accent);">
+              <i class="fa-solid fa-award"></i> Professional Certifications
+            </h3>
+            <div class="certs-wrapper">
+              <div class="cred-card cert-card-3d tilt-card gold-glow">
+                <div class="cert-icon"><i class="fa-brands fa-aws"></i></div>
+                <div>
+                  <h4 class="cert-title">AWS Certified Cloud Practitioner</h4>
+                  <p class="cert-issuer">Amazon Web Services (AWS)</p>
+                </div>
+              </div>
+
+              <div class="cred-card cert-card-3d tilt-card">
+                <div class="cert-icon" style="color: var(--cyan-accent); border-color: rgba(0,242,254,0.3); background: rgba(0,242,254,0.1);"><i class="fa-solid fa-robot"></i></div>
+                <div>
+                  <h4 class="cert-title">Certified GenAI Engineer</h4>
+                  <p class="cert-issuer">LLMs & Hugging Face</p>
+                </div>
+              </div>
+
+              <div class="cred-card cert-card-3d tilt-card">
+                <div class="cert-icon" style="color: #d8b4fe; border-color: rgba(121,40,202,0.3); background: rgba(121,40,202,0.1);"><i class="fa-solid fa-cube"></i></div>
+                <div>
+                  <h4 class="cert-title">Generative AI Fundamentals</h4>
+                  <p class="cert-issuer">Databricks</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Card -->
+          <div>
+            <h3 style="font-family: var(--font-heading); font-size: 1.4rem; margin-bottom: 20px; color: var(--cyan-accent);">
+              <i class="fa-solid fa-university"></i> Academic Degree
+            </h3>
+            <div class="cred-card edu-card-3d tilt-card">
+              <div>
+                <div class="edu-icon-header">
+                  <div class="icon-box-3d gold"><i class="fa-solid fa-graduation-cap"></i></div>
+                  <div>
+                    <h4 class="edu-degree">B.E. in Computer Science & Engineering</h4>
+                    <p class="edu-school">Chandigarh University, Mohali, Punjab</p>
+                  </div>
+                </div>
+                <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.95rem;">
+                  Graduated with a strong foundation in Computer Science, Data Structures & Algorithms, Object-Oriented Programming, and Database Systems.
+                </p>
+              </div>
+              <div>
+                <div class="cgpa-chip">
+                  <i class="fa-solid fa-star"></i> Cumulative CGPA: 7.47 (Aug 2021 – Jun 2025)
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="cred-card contact-card-main tilt-card gold-glow">
+          <span class="section-subtitle gold"><i class="fa-regular fa-paper-plane"></i> Let's Connect</span>
+          <h2 class="section-title" style="margin-top: 12px;">Ready to Elevate Your <span class="gradient-text-gold">Data & AI Projects?</span></h2>
+          <p class="section-description" style="margin-bottom: 30px;">
+            Whether you are looking for a Data Analytics Engineer, AI practitioner, or technical collaborator — my inbox is always open.
+          </p>
+
+          <div class="contact-actions-wrap">
+            <a href="mailto:shimpisharma2001@gmail.com" class="btn btn-primary">
+              <i class="fa-solid fa-paper-plane"></i> Send Email
+            </a>
+            <a href="https://linkedin.com/in/shimpi-sharma" target="_blank" rel="noopener" class="btn btn-secondary">
+              <i class="fa-brands fa-linkedin"></i> Connect on LinkedIn
+            </a>
+            <a href="tel:+919509148047" class="btn btn-outline">
+              <i class="fa-solid fa-phone"></i> Call (+91-9509148047)
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 <strong>Shimpi Sharma</strong>. Crafted with CRED-Inspired 3D Design & Three.js WebGL.</p>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div class="toast-notif" id="toast-notif">
+    <i class="fa-solid fa-check-circle" style="color: var(--emerald-accent);"></i> Email copied to clipboard: shimpisharma2001@gmail.com
+  </div>
+
+  <!-- JavaScript Module Entry -->
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>

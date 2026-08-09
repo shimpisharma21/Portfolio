@@ -6,7 +6,7 @@
 
 Welcome to the personal portfolio repository of **Shimpi Sharma** — Data Analytics & AI Professional and Project Engineer at Wipro (Philips Account).
 
-🌐 **Live Website**: [https://shimpisharma21.github.io/portfolio/](https://shimpisharma21.github.io/portfolio/)
+🌐 **Live Website**: [https://shimpisharma21.github.io/Portfolio/](https://shimpisharma21.github.io/Portfolio/)
 
 ---
 

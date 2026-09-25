@@ -140,10 +140,10 @@ function init3DBackground() {
 }
 
 // --------------------------------------------------------------------------
-// 2. VANILLA 3D CARD PERSPECTIVE TILT (CRED ELEVATION EFFECT)
+// 2. VANILLA 3D CARD PERSPECTIVE TILT (3D ELEVATION EFFECT)
 // --------------------------------------------------------------------------
 function init3DTiltCards() {
-  const cards = document.querySelectorAll('.tilt-card, .cred-card');
+  const cards = document.querySelectorAll('.tilt-card, .luxury-card');
 
   cards.forEach(card => {
     card.addEventListener('mousemove', (e) => {

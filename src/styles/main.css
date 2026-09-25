@@ -1,5 +1,5 @@
 /* ==========================================================================
-   SHIMPI SHARMA - 3D CRED-INSPIRED PORTFOLIO STYLES
+   SHIMPI SHARMA - 3D INTERACTIVE PORTFOLIO STYLES
    Aesthetic: Ultra-Luxury Dark Metallic, Neon Accents, 3D Perspective & Glass
    ========================================================================== */
 
@@ -21,7 +21,7 @@
   --border-gold-glow: rgba(247, 201, 72, 0.3);
   --border-chiseled: inset 0 1px 1px rgba(255, 255, 255, 0.15), 0 20px 40px rgba(0, 0, 0, 0.8);
 
-  /* Neon Accent Gradients (CRED Aesthetic) */
+  /* Neon Accent Gradients */
   --grad-cyan: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
   --grad-gold: linear-gradient(135deg, #ffe066 0%, #f7c948 50%, #e6a100 100%);
   --grad-violet: linear-gradient(135deg, #7928ca 0%, #ff0080 100%);
@@ -237,9 +237,9 @@ body {
 }
 
 /* --------------------------------------------------------------------------
-   3. 3D GLASS CARDS & CRED SURFACES
+   3. 3D GLASS CARDS & SURFACES
    -------------------------------------------------------------------------- */
-.cred-card {
+.luxury-card {
   background: var(--grad-dark-surface);
   border: 1px solid var(--border-light);
   border-radius: var(--radius-lg);
@@ -250,7 +250,7 @@ body {
   overflow: hidden;
   transition: var(--transition-smooth);
 }
-.cred-card::before {
+.luxury-card::before {
   content: '';
   position: absolute;
   top: 0;
@@ -281,7 +281,7 @@ body {
 }
 
 /* --------------------------------------------------------------------------
-   4. NAVIGATION BAR (CRED GLASS NAVBAR)
+   4. NAVIGATION BAR (GLASS NAVBAR)
    -------------------------------------------------------------------------- */
 .navbar {
   position: fixed;
@@ -369,7 +369,7 @@ body {
   gap: 16px;
 }
 
-/* CRED 3D Button */
+/* 3D Button */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -438,7 +438,7 @@ body {
 }
 
 /* --------------------------------------------------------------------------
-   5. HERO SECTION (3D CRED LANDING)
+   5. HERO SECTION (3D LANDING)
    -------------------------------------------------------------------------- */
 .hero-section {
   min-height: 100vh;
@@ -579,7 +579,7 @@ body {
   perspective: 1200px;
 }
 
-.cred-3d-card {
+.elevated-3d-card {
   background: linear-gradient(145deg, rgba(20, 24, 35, 0.95), rgba(8, 9, 13, 0.98));
   border: 1px solid var(--border-glow);
   border-radius: var(--radius-lg);
@@ -588,7 +588,7 @@ body {
   transform: rotateY(-8deg) rotateX(6deg);
   transition: var(--transition-3d);
 }
-.cred-3d-card:hover {
+.elevated-3d-card:hover {
   transform: rotateY(0deg) rotateX(0deg) scale(1.02);
   border-color: var(--gold-accent);
   box-shadow: var(--shadow-3d), var(--shadow-glow-gold);
@@ -749,7 +749,7 @@ body {
 }
 
 /* --------------------------------------------------------------------------
-   7. SKILLS MATRIX (CRED 3D BADGES)
+   7. SKILLS MATRIX (3D BADGES)
    -------------------------------------------------------------------------- */
 .skills-categories {
   display: grid;
@@ -811,7 +811,7 @@ body {
 .skill-badge-3d.gold i { color: var(--gold-accent); }
 
 /* --------------------------------------------------------------------------
-   8. EXPERIENCE TIMELINE (CRED 3D PIPELINE)
+   8. EXPERIENCE TIMELINE (3D PIPELINE)
    -------------------------------------------------------------------------- */
 .timeline-container {
   position: relative;
@@ -923,7 +923,7 @@ body {
 }
 
 /* --------------------------------------------------------------------------
-   9. PROJECTS SECTION (CRED 3D CAROUSEL / DECK)
+   9. PROJECTS SECTION (3D CAROUSEL / DECK)
    -------------------------------------------------------------------------- */
 .projects-filter-bar {
   display: flex;
@@ -1181,7 +1181,7 @@ body {
   .hero-grid { grid-template-columns: 1fr; gap: 40px; }
   .about-grid { grid-template-columns: 1fr; }
   .cert-edu-grid { grid-template-columns: 1fr; }
-  .cred-3d-card { transform: none; }
+  .elevated-3d-card { transform: none; }
 }
 
 @media (max-width: 768px) {

@@ -1,6 +1,6 @@
-# 🚀 Shimpi Sharma — 3D CRED-Inspired Portfolio
+# 🚀 Shimpi Sharma — 3D Interactive Portfolio
 
-![Portfolio Banner](https://img.shields.io/badge/Aesthetic-CRED--3D--Dark--Metallic-gold?style=for-the-badge)
+![Portfolio Banner](https://img.shields.io/badge/Aesthetic-3D--Dark--Metallic--Glass-gold?style=for-the-badge)
 ![Tech Stack](https://img.shields.io/badge/Built%20With-Vite%20%7C%20Three.js%20%7C%20CSS3-cyan?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Deployment-GitHub%20Pages-emerald?style=for-the-badge)
 
@@ -12,7 +12,7 @@ Welcome to the personal portfolio repository of **Shimpi Sharma** — Data Analy
 
 ## ✨ Key Features & Highlights
 
-- 🎨 **CRED-Inspired 3D Aesthetic**: Ultra-luxury dark obsidian palette (`#040507`), neon glowing accents (Gold, Cyan, Violet, Emerald), and glassmorphic card containers.
+- 🎨 **3D Dark Metallic Aesthetic**: Ultra-luxury dark obsidian palette (`#040507`), neon glowing accents (Gold, Cyan, Violet, Emerald), and glassmorphic card containers.
 - ⚡ **Three.js WebGL 3D Particle Network**: Interactive 3D data nodes and connection lines reacting dynamically to cursor movement.
 - 🎛️ **3D Card Perspective Tilt**: Smooth cursor tilt and depth parallax elevation effects on cards.
 - ⌨️ **Typewriter Specialty Rotator**: Dynamic role rotator highlighting Data Science, Machine Learning, and GenAI expertise.
@@ -42,7 +42,7 @@ portfolio/
 │   ├── js/
 │   │   └── main.js       # Three.js 3D Background & Interaction Scripts
 │   └── styles/
-│       └── main.css      # CRED 3D Custom CSS Design System
+│       └── main.css      # Custom 3D CSS Design System
 └── dist/                 # Production Build Directory (gh-pages)
 ```
 
